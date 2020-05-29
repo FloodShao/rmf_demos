@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 
 <sdf version="1.6">
-  <model name="robot_frame">
+  <model name="RobotPlaceholder">
     <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
     <static>true</static>
     
-    <link name="robot_frame_link">
+    <link name="visual_link">
+      <pose>0.0 0.0 0.05 0.0 0.0 0.0</pose>
       <visual name="visual">
         <geometry>
           <box>
@@ -13,8 +14,8 @@
           </box>
         </geometry>
         <material>
-          <ambient>128 192 210 0.6</ambient>
-          <diffuse>128 192 210 0.6</diffuse>
+          <ambient>128 192 210 0.1</ambient>
+          <diffuse>128 192 210 0.1</diffuse>
         </material>
       </visual>
     </link>
